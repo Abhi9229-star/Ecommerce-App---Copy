@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
 import axios from 'axios'
 import { toast } from 'react-toastify'
-import { set } from 'mongoose'
+
 
 function PlaceOrder() {
   const [method, setMethod] = useState('cod')
